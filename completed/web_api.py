@@ -38,7 +38,7 @@ def main_func(message, history):
     }
     responce = requests.get(f"{BASE_URL}/current.json", params=params)
     # レスポンスのステータスコードによって処理を分岐
-    if responce.status_code != 200:
+    if responce.status_code == 200:
         # レスポンスのJSONデータを取得
         response_json = responce.json()
         # JSONデータからCbatbotのレスポンスメッセージを生成

@@ -17,10 +17,8 @@ demo = gr.ChatInterface(
     title="天気予報",
     description="天気の質問に答えます！",
     # theme="soft",
-    # examples=["Hello", "Am I cool?", "Are tomatoes vegetables?"],
+    # examples=["今日の天気は？", "明日の天気を教えてください"],
     # retry_btn=None,
-    undo_btn="Delete Previous",
-    clear_btn="Clear",
 )
 
 if __name__ == "__main__":

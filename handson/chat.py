@@ -9,7 +9,7 @@ def main_func(message, history):
 demo = gr.ChatInterface(
     fn=main_func,
     chatbot=gr.Chatbot(),
-    textbox=gr.Textbox(placeholder="xxx", scale=7),
+    textbox=gr.Textbox(placeholder="天気を聞いてください！", scale=7),
 )
 
 if __name__ == "__main__":

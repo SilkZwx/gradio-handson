@@ -9,7 +9,7 @@ demo = gr.Interface(
     inputs=gr.Image(),
     fn=main_func,
     outputs=gr.Textbox(label="Greeting"),
-    title="画像分類デモ",
+    title="画像デモ",
     description="このデモでは、画像をアップロードすると画像の内容を表示します",
 )
 
